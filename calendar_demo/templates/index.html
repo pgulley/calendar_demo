@@ -1,0 +1,35 @@
+<html>
+<head>
+<link rel="stylesheet" type='text/css' href='/static/style.css'>
+</head>
+<body>
+ <div>
+
+ </div>
+ <div>
+  {% autoescape off %}
+  {{ calendar1 }}
+  {% endautoescape %}
+ </div>
+ 
+ <div>
+  {% autoescape off %}
+  {{ calendar2 }}
+  {% endautoescape %}
+ </div>
+ 
+ 
+ <div>
+  {% autoescape off %}
+  {{ calendar3 }}
+  {% endautoescape %}
+ </div>
+
+ <form action="" method="post">
+ {% csrf_token %}
+ {{ form.as_p }}
+ <input type="submit" value="Submit">
+ </form>
+
+</body>
+</html>

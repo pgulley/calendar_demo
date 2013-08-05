@@ -1,0 +1,73 @@
+<style type='text/css'>
+
+
+/* Default month class */
+
+table.month{
+    border:"0";
+    cellpadding:"0";
+    cellspacing:"0";
+}
+ 
+
+
+td.mon{
+   color:red;
+}
+
+/* First Variation */
+ 
+table.monthvar1{
+   border:2px solid black;
+   cellspacing:"2";
+   cellpadding:"1";
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   border-radius:10px;
+}
+
+table.monthvar1 th{
+   font-style:italic;
+   font-size:1.5em;
+}
+
+table.monthvar1 th.month{
+   font-size:2em;
+}
+
+table.monthvar1 td{
+   font-size:1.25em;
+}
+
+td.yes{
+   color:blue;
+}
+
+table.monthvar1 th.nav{
+font-size:1em;
+}
+
+/* Second Variation */
+
+table.monthvar2{
+    border:0;
+    cellspacing:'2';
+    cellpadding:'2';
+    background-color:#5CB8E6;
+    color:#1C3745;
+}
+
+table.monthvar2 td{
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+    background-color:#CCFFFF;
+}
+
+table.monthvar2 td.noday{
+    background-color:transparent;
+}
+
+table.monthvar2 th.nav{
+font-size:.75em;
+}
